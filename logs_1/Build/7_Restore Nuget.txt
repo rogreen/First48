@@ -1,0 +1,180 @@
+2018-02-21T18:09:28.3694200Z ##[section]Starting: Restore Nuget
+2018-02-21T18:09:28.3885270Z ==============================================================================
+2018-02-21T18:09:28.3903450Z Task         : Command Line
+2018-02-21T18:09:28.3921560Z Description  : Run a command line with arguments
+2018-02-21T18:09:28.3939010Z Version      : 1.1.3
+2018-02-21T18:09:28.3956590Z Author       : Microsoft Corporation
+2018-02-21T18:09:28.3974850Z Help         : [More Information](https://go.microsoft.com/fwlink/?LinkID=613735)
+2018-02-21T18:09:28.3993010Z ==============================================================================
+2018-02-21T18:09:29.6955010Z [command]/bin/bash -c /usr/bin/find . -name '*.sln' -print0 | /usr/bin/xargs -0 -n1 nuget restore -DisableParallelProcessing
+2018-02-21T18:09:31.4867200Z MSBuild auto-detection: using msbuild version '15.0' from '/Library/Frameworks/Mono.framework/Versions/Current/lib/mono/msbuild/15.0/bin/'.
+2018-02-21T18:09:37.6058280Z Restoring packages for /Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48.Android/First48.Android.csproj...
+2018-02-21T18:09:38.2359900Z   GET https://api.nuget.org/v3-flatcontainer/microsoft.appcenter.crashes/index.json
+2018-02-21T18:09:38.3625090Z   OK https://api.nuget.org/v3-flatcontainer/microsoft.appcenter.crashes/index.json 126ms
+2018-02-21T18:09:38.3704490Z   GET https://api.nuget.org/v3-flatcontainer/microsoft.appcenter.analytics/index.json
+2018-02-21T18:09:38.5773040Z   OK https://api.nuget.org/v3-flatcontainer/microsoft.appcenter.analytics/index.json 206ms
+2018-02-21T18:09:38.5848560Z   GET https://api.nuget.org/v3-flatcontainer/microsoft.appcenter.crashes/1.4.0/microsoft.appcenter.crashes.1.4.0.nupkg
+2018-02-21T18:09:38.6803650Z   OK https://api.nuget.org/v3-flatcontainer/microsoft.appcenter.crashes/1.4.0/microsoft.appcenter.crashes.1.4.0.nupkg 100ms
+2018-02-21T18:09:39.3171010Z   GET https://api.nuget.org/v3-flatcontainer/microsoft.appcenter.analytics/1.4.0/microsoft.appcenter.analytics.1.4.0.nupkg
+2018-02-21T18:09:39.7005760Z   OK https://api.nuget.org/v3-flatcontainer/microsoft.appcenter.analytics/1.4.0/microsoft.appcenter.analytics.1.4.0.nupkg 383ms
+2018-02-21T18:09:39.7951160Z   GET https://api.nuget.org/v3-flatcontainer/microsoft.appcenter/index.json
+2018-02-21T18:09:40.0787010Z   OK https://api.nuget.org/v3-flatcontainer/microsoft.appcenter/index.json 283ms
+2018-02-21T18:09:40.0865560Z   GET https://api.nuget.org/v3-flatcontainer/microsoft.appcenter/1.4.0/microsoft.appcenter.1.4.0.nupkg
+2018-02-21T18:09:40.3482670Z   OK https://api.nuget.org/v3-flatcontainer/microsoft.appcenter/1.4.0/microsoft.appcenter.1.4.0.nupkg 266ms
+2018-02-21T18:09:40.9047870Z Installing Microsoft.AppCenter.Crashes 1.4.0.
+2018-02-21T18:09:41.8573010Z Installing Microsoft.AppCenter.Analytics 1.4.0.
+2018-02-21T18:09:41.9962110Z Installing Microsoft.AppCenter 1.4.0.
+2018-02-21T18:09:44.0695030Z Committing restore...
+2018-02-21T18:09:44.0724590Z Generating MSBuild file /Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48.Android/obj/First48.Android.csproj.nuget.g.props.
+2018-02-21T18:09:44.0747900Z Generating MSBuild file /Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48.Android/obj/First48.Android.csproj.nuget.g.targets.
+2018-02-21T18:09:44.0766840Z Writing lock file to disk. Path: /Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48.Android/obj/project.assets.json
+2018-02-21T18:09:44.1030150Z Restore completed in 6.49 sec for /Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48.Android/First48.Android.csproj.
+2018-02-21T18:09:44.1065720Z Restoring packages for /Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48.iOS/First48.iOS.csproj...
+2018-02-21T18:09:44.9806440Z Committing restore...
+2018-02-21T18:09:44.9825710Z Generating MSBuild file /Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48.iOS/obj/First48.iOS.csproj.nuget.g.props.
+2018-02-21T18:09:44.9845290Z Generating MSBuild file /Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48.iOS/obj/First48.iOS.csproj.nuget.g.targets.
+2018-02-21T18:09:44.9864260Z Writing lock file to disk. Path: /Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48.iOS/obj/project.assets.json
+2018-02-21T18:09:44.9897110Z Restore completed in 874.76 ms for /Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48.iOS/First48.iOS.csproj.
+2018-02-21T18:09:44.9916000Z Restoring packages for /Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48/First48.csproj...
+2018-02-21T18:09:45.0119890Z   GET https://api.nuget.org/v3-flatcontainer/runtime.native.system.io.compression/index.json
+2018-02-21T18:09:45.3881500Z   OK https://api.nuget.org/v3-flatcontainer/runtime.native.system.io.compression/index.json 376ms
+2018-02-21T18:09:45.3956870Z   GET https://api.nuget.org/v3-flatcontainer/system.buffers/index.json
+2018-02-21T18:09:45.6626510Z   OK https://api.nuget.org/v3-flatcontainer/system.buffers/index.json 272ms
+2018-02-21T18:09:45.6701280Z   GET https://api.nuget.org/v3-flatcontainer/system.reflection.emit/index.json
+2018-02-21T18:09:45.9322040Z   OK https://api.nuget.org/v3-flatcontainer/system.reflection.emit/index.json 266ms
+2018-02-21T18:09:45.9397070Z   GET https://api.nuget.org/v3-flatcontainer/system.reflection.emit.ilgeneration/index.json
+2018-02-21T18:09:46.2020100Z   OK https://api.nuget.org/v3-flatcontainer/system.reflection.emit.ilgeneration/index.json 267ms
+2018-02-21T18:09:46.2095170Z   GET https://api.nuget.org/v3-flatcontainer/system.reflection.emit.lightweight/index.json
+2018-02-21T18:09:46.4768910Z   OK https://api.nuget.org/v3-flatcontainer/system.reflection.emit.lightweight/index.json 272ms
+2018-02-21T18:09:46.4844340Z   GET https://api.nuget.org/v3-flatcontainer/system.reflection.typeextensions/index.json
+2018-02-21T18:09:46.7436580Z   OK https://api.nuget.org/v3-flatcontainer/system.reflection.typeextensions/index.json 264ms
+2018-02-21T18:09:46.7511180Z   GET https://api.nuget.org/v3-flatcontainer/runtime.native.system.net.http/index.json
+2018-02-21T18:09:47.0140530Z   OK https://api.nuget.org/v3-flatcontainer/runtime.native.system.net.http/index.json 268ms
+2018-02-21T18:09:47.0213810Z   GET https://api.nuget.org/v3-flatcontainer/runtime.native.system.security.cryptography.openssl/index.json
+2018-02-21T18:09:47.2842160Z   OK https://api.nuget.org/v3-flatcontainer/runtime.native.system.security.cryptography.openssl/index.json 268ms
+2018-02-21T18:09:47.2916090Z   GET https://api.nuget.org/v3-flatcontainer/system.globalization.extensions/index.json
+2018-02-21T18:09:47.5561340Z   OK https://api.nuget.org/v3-flatcontainer/system.globalization.extensions/index.json 266ms
+2018-02-21T18:09:47.5639390Z   GET https://api.nuget.org/v3-flatcontainer/system.security.cryptography.openssl/index.json
+2018-02-21T18:09:47.8351190Z   OK https://api.nuget.org/v3-flatcontainer/system.security.cryptography.openssl/index.json 279ms
+2018-02-21T18:09:47.8426040Z   GET https://api.nuget.org/v3-flatcontainer/runtime.native.system.security.cryptography.apple/index.json
+2018-02-21T18:09:48.1069900Z   OK https://api.nuget.org/v3-flatcontainer/runtime.native.system.security.cryptography.apple/index.json 268ms
+2018-02-21T18:09:48.1143220Z   GET https://api.nuget.org/v3-flatcontainer/system.security.cryptography.cng/index.json
+2018-02-21T18:09:49.1503760Z   OK https://api.nuget.org/v3-flatcontainer/system.security.cryptography.cng/index.json 270ms
+2018-02-21T18:09:49.1578000Z   GET https://api.nuget.org/v3-flatcontainer/system.security.cryptography.csp/index.json
+2018-02-21T18:09:49.1652280Z   OK https://api.nuget.org/v3-flatcontainer/system.security.cryptography.csp/index.json 271ms
+2018-02-21T18:09:49.1727980Z   GET https://api.nuget.org/v3-flatcontainer/system.threading.tasks.extensions/index.json
+2018-02-21T18:09:49.1802800Z   OK https://api.nuget.org/v3-flatcontainer/system.threading.tasks.extensions/index.json 271ms
+2018-02-21T18:09:49.1878240Z   GET https://api.nuget.org/v3-flatcontainer/runtime.native.system.io.compression/4.3.0/runtime.native.system.io.compression.4.3.0.nupkg
+2018-02-21T18:09:49.2008160Z   OK https://api.nuget.org/v3-flatcontainer/runtime.native.system.io.compression/4.3.0/runtime.native.system.io.compression.4.3.0.nupkg 267ms
+2018-02-21T18:09:49.2156740Z   GET https://api.nuget.org/v3-flatcontainer/system.buffers/4.3.0/system.buffers.4.3.0.nupkg
+2018-02-21T18:09:49.2261020Z   OK https://api.nuget.org/v3-flatcontainer/system.buffers/4.3.0/system.buffers.4.3.0.nupkg 10ms
+2018-02-21T18:09:49.2468340Z   GET https://api.nuget.org/v3-flatcontainer/system.reflection.emit/4.3.0/system.reflection.emit.4.3.0.nupkg
+2018-02-21T18:09:49.5130490Z   OK https://api.nuget.org/v3-flatcontainer/system.reflection.emit/4.3.0/system.reflection.emit.4.3.0.nupkg 266ms
+2018-02-21T18:09:49.5788040Z   GET https://api.nuget.org/v3-flatcontainer/system.reflection.emit.ilgeneration/4.3.0/system.reflection.emit.ilgeneration.4.3.0.nupkg
+2018-02-21T18:09:49.6612750Z   OK https://api.nuget.org/v3-flatcontainer/system.reflection.emit.ilgeneration/4.3.0/system.reflection.emit.ilgeneration.4.3.0.nupkg 81ms
+2018-02-21T18:09:49.7309900Z   GET https://api.nuget.org/v3-flatcontainer/system.reflection.emit.lightweight/4.3.0/system.reflection.emit.lightweight.4.3.0.nupkg
+2018-02-21T18:09:49.9999020Z   OK https://api.nuget.org/v3-flatcontainer/system.reflection.emit.lightweight/4.3.0/system.reflection.emit.lightweight.4.3.0.nupkg 268ms
+2018-02-21T18:09:50.0836470Z   GET https://api.nuget.org/v3-flatcontainer/system.reflection.typeextensions/4.3.0/system.reflection.typeextensions.4.3.0.nupkg
+2018-02-21T18:09:50.0923030Z   OK https://api.nuget.org/v3-flatcontainer/system.reflection.typeextensions/4.3.0/system.reflection.typeextensions.4.3.0.nupkg 8ms
+2018-02-21T18:09:50.2398480Z   GET https://api.nuget.org/v3-flatcontainer/runtime.native.system.net.http/4.3.0/runtime.native.system.net.http.4.3.0.nupkg
+2018-02-21T18:09:50.5053820Z   OK https://api.nuget.org/v3-flatcontainer/runtime.native.system.net.http/4.3.0/runtime.native.system.net.http.4.3.0.nupkg 265ms
+2018-02-21T18:09:50.5209580Z   GET https://api.nuget.org/v3-flatcontainer/runtime.native.system.security.cryptography.openssl/4.3.0/runtime.native.system.security.cryptography.openssl.4.3.0.nupkg
+2018-02-21T18:09:50.7965120Z   OK https://api.nuget.org/v3-flatcontainer/runtime.native.system.security.cryptography.openssl/4.3.0/runtime.native.system.security.cryptography.openssl.4.3.0.nupkg 275ms
+2018-02-21T18:09:50.8105890Z   GET https://api.nuget.org/v3-flatcontainer/system.globalization.extensions/4.3.0/system.globalization.extensions.4.3.0.nupkg
+2018-02-21T18:09:51.0778510Z   OK https://api.nuget.org/v3-flatcontainer/system.globalization.extensions/4.3.0/system.globalization.extensions.4.3.0.nupkg 267ms
+2018-02-21T18:09:51.1497000Z   GET https://api.nuget.org/v3-flatcontainer/system.security.cryptography.openssl/4.3.0/system.security.cryptography.openssl.4.3.0.nupkg
+2018-02-21T18:09:51.4186140Z   OK https://api.nuget.org/v3-flatcontainer/system.security.cryptography.openssl/4.3.0/system.security.cryptography.openssl.4.3.0.nupkg 268ms
+2018-02-21T18:09:51.4414870Z   GET https://api.nuget.org/v3-flatcontainer/runtime.native.system.security.cryptography.apple/4.3.0/runtime.native.system.security.cryptography.apple.4.3.0.nupkg
+2018-02-21T18:09:51.7050850Z   OK https://api.nuget.org/v3-flatcontainer/runtime.native.system.security.cryptography.apple/4.3.0/runtime.native.system.security.cryptography.apple.4.3.0.nupkg 263ms
+2018-02-21T18:09:51.7203830Z   GET https://api.nuget.org/v3-flatcontainer/system.security.cryptography.cng/4.3.0/system.security.cryptography.cng.4.3.0.nupkg
+2018-02-21T18:09:51.9878670Z   OK https://api.nuget.org/v3-flatcontainer/system.security.cryptography.cng/4.3.0/system.security.cryptography.cng.4.3.0.nupkg 267ms
+2018-02-21T18:09:52.0457490Z   GET https://api.nuget.org/v3-flatcontainer/system.security.cryptography.csp/4.3.0/system.security.cryptography.csp.4.3.0.nupkg
+2018-02-21T18:09:52.3152200Z   OK https://api.nuget.org/v3-flatcontainer/system.security.cryptography.csp/4.3.0/system.security.cryptography.csp.4.3.0.nupkg 269ms
+2018-02-21T18:09:52.3634870Z   GET https://api.nuget.org/v3-flatcontainer/system.threading.tasks.extensions/4.3.0/system.threading.tasks.extensions.4.3.0.nupkg
+2018-02-21T18:09:52.6339400Z   OK https://api.nuget.org/v3-flatcontainer/system.threading.tasks.extensions/4.3.0/system.threading.tasks.extensions.4.3.0.nupkg 270ms
+2018-02-21T18:09:52.6574230Z   GET https://api.nuget.org/v3-flatcontainer/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/index.json
+2018-02-21T18:09:52.9255100Z   OK https://api.nuget.org/v3-flatcontainer/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/index.json 267ms
+2018-02-21T18:09:52.9341900Z   GET https://api.nuget.org/v3-flatcontainer/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/index.json
+2018-02-21T18:09:53.0283980Z   OK https://api.nuget.org/v3-flatcontainer/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/index.json 100ms
+2018-02-21T18:09:53.0360920Z   GET https://api.nuget.org/v3-flatcontainer/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/index.json
+2018-02-21T18:09:53.3479400Z   OK https://api.nuget.org/v3-flatcontainer/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/index.json 308ms
+2018-02-21T18:09:53.3558440Z   GET https://api.nuget.org/v3-flatcontainer/runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl/index.json
+2018-02-21T18:09:53.4370600Z   OK https://api.nuget.org/v3-flatcontainer/runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl/index.json 86ms
+2018-02-21T18:09:53.4445880Z   GET https://api.nuget.org/v3-flatcontainer/runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl/index.json
+2018-02-21T18:09:53.7194200Z   OK https://api.nuget.org/v3-flatcontainer/runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl/index.json 282ms
+2018-02-21T18:09:53.7281400Z   GET https://api.nuget.org/v3-flatcontainer/runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl/index.json
+2018-02-21T18:09:53.9895860Z   OK https://api.nuget.org/v3-flatcontainer/runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl/index.json 268ms
+2018-02-21T18:09:53.9972820Z   GET https://api.nuget.org/v3-flatcontainer/runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl/index.json
+2018-02-21T18:09:54.2822940Z   OK https://api.nuget.org/v3-flatcontainer/runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl/index.json 286ms
+2018-02-21T18:09:54.2934640Z   GET https://api.nuget.org/v3-flatcontainer/runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/index.json
+2018-02-21T18:09:54.5668180Z   OK https://api.nuget.org/v3-flatcontainer/runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/index.json 275ms
+2018-02-21T18:09:54.5745270Z   GET https://api.nuget.org/v3-flatcontainer/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl/index.json
+2018-02-21T18:09:54.8335800Z   OK https://api.nuget.org/v3-flatcontainer/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl/index.json 266ms
+2018-02-21T18:09:54.8413210Z   GET https://api.nuget.org/v3-flatcontainer/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/index.json
+2018-02-21T18:09:55.1089660Z   OK https://api.nuget.org/v3-flatcontainer/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/index.json 271ms
+2018-02-21T18:09:55.1172520Z   GET https://api.nuget.org/v3-flatcontainer/runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/index.json
+2018-02-21T18:09:55.3943380Z   OK https://api.nuget.org/v3-flatcontainer/runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/index.json 283ms
+2018-02-21T18:09:55.4025910Z   GET https://api.nuget.org/v3-flatcontainer/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg
+2018-02-21T18:09:55.6625010Z   OK https://api.nuget.org/v3-flatcontainer/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg 264ms
+2018-02-21T18:09:55.6809140Z   GET https://api.nuget.org/v3-flatcontainer/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg
+2018-02-21T18:09:55.9500690Z   OK https://api.nuget.org/v3-flatcontainer/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg 269ms
+2018-02-21T18:09:55.9669460Z   GET https://api.nuget.org/v3-flatcontainer/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg
+2018-02-21T18:09:56.2319150Z   OK https://api.nuget.org/v3-flatcontainer/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg 265ms
+2018-02-21T18:09:56.2488920Z   GET https://api.nuget.org/v3-flatcontainer/runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg
+2018-02-21T18:09:56.5150640Z   OK https://api.nuget.org/v3-flatcontainer/runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.opensuse.13.2-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg 265ms
+2018-02-21T18:09:56.5355480Z   GET https://api.nuget.org/v3-flatcontainer/runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg
+2018-02-21T18:09:56.8037670Z   OK https://api.nuget.org/v3-flatcontainer/runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.opensuse.42.1-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg 267ms
+2018-02-21T18:09:56.8220080Z   GET https://api.nuget.org/v3-flatcontainer/runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg
+2018-02-21T18:09:57.0921360Z   OK https://api.nuget.org/v3-flatcontainer/runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.osx.10.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg 269ms
+2018-02-21T18:09:57.1114620Z   GET https://api.nuget.org/v3-flatcontainer/runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg
+2018-02-21T18:09:57.1886280Z   OK https://api.nuget.org/v3-flatcontainer/runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg 76ms
+2018-02-21T18:09:57.2050360Z   GET https://api.nuget.org/v3-flatcontainer/runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg
+2018-02-21T18:09:57.4753170Z   OK https://api.nuget.org/v3-flatcontainer/runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.14.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg 269ms
+2018-02-21T18:09:57.4929390Z   GET https://api.nuget.org/v3-flatcontainer/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg
+2018-02-21T18:09:57.7611840Z   OK https://api.nuget.org/v3-flatcontainer/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.16.04-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg 268ms
+2018-02-21T18:09:57.7806280Z   GET https://api.nuget.org/v3-flatcontainer/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg
+2018-02-21T18:09:58.0505960Z   OK https://api.nuget.org/v3-flatcontainer/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0/runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg 270ms
+2018-02-21T18:09:58.0670490Z   GET https://api.nuget.org/v3-flatcontainer/runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/4.3.0/runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple.4.3.0.nupkg
+2018-02-21T18:09:58.3341030Z   OK https://api.nuget.org/v3-flatcontainer/runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple/4.3.0/runtime.osx.10.10-x64.runtime.native.system.security.cryptography.apple.4.3.0.nupkg 266ms
+2018-02-21T18:09:58.3663400Z Installing runtime.native.System.IO.Compression 4.3.0.
+2018-02-21T18:09:58.3904240Z Installing System.Buffers 4.3.0.
+2018-02-21T18:09:58.4197260Z Installing System.Reflection.Emit 4.3.0.
+2018-02-21T18:09:58.5346750Z Installing System.Reflection.Emit.ILGeneration 4.3.0.
+2018-02-21T18:09:58.6627430Z Installing System.Reflection.Emit.Lightweight 4.3.0.
+2018-02-21T18:09:58.7965980Z Installing System.Reflection.TypeExtensions 4.3.0.
+2018-02-21T18:09:58.9814420Z Installing System.Threading.Tasks.Extensions 4.3.0.
+2018-02-21T18:09:59.0194250Z Installing runtime.native.System.Net.Http 4.3.0.
+2018-02-21T18:09:59.0416100Z Installing System.Globalization.Extensions 4.3.0.
+2018-02-21T18:09:59.1584420Z Installing System.Security.Cryptography.OpenSsl 4.3.0.
+2018-02-21T18:09:59.1953180Z Installing runtime.native.System.Security.Cryptography.OpenSsl 4.3.0.
+2018-02-21T18:09:59.2185140Z Installing System.Security.Cryptography.Cng 4.3.0.
+2018-02-21T18:09:59.3211330Z Installing System.Security.Cryptography.Csp 4.3.0.
+2018-02-21T18:09:59.4181000Z Installing runtime.native.System.Security.Cryptography.Apple 4.3.0.
+2018-02-21T18:09:59.4456620Z Installing runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0.
+2018-02-21T18:09:59.4730640Z Installing runtime.fedora.23-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0.
+2018-02-21T18:09:59.5025310Z Installing runtime.fedora.24-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0.
+2018-02-21T18:09:59.5304030Z Installing runtime.opensuse.13.2-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0.
+2018-02-21T18:09:59.5574010Z Installing runtime.opensuse.42.1-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0.
+2018-02-21T18:09:59.5841050Z Installing runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0.
+2018-02-21T18:09:59.6111290Z Installing runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0.
+2018-02-21T18:09:59.6376390Z Installing runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0.
+2018-02-21T18:09:59.6681890Z Installing runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0.
+2018-02-21T18:09:59.6953670Z Installing runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl 4.3.0.
+2018-02-21T18:09:59.7226190Z Installing runtime.osx.10.10-x64.runtime.native.System.Security.Cryptography.Apple 4.3.0.
+2018-02-21T18:10:00.7392130Z Committing restore...
+2018-02-21T18:10:00.7410260Z Generating MSBuild file /Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48/obj/First48.csproj.nuget.g.props.
+2018-02-21T18:10:00.7428810Z Generating MSBuild file /Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48/obj/First48.csproj.nuget.g.targets.
+2018-02-21T18:10:00.7447010Z Writing lock file to disk. Path: /Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48/obj/project.assets.json
+2018-02-21T18:10:00.7510770Z Restore completed in 15.75 sec for /Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48/First48.csproj.
+2018-02-21T18:10:00.7533420Z 
+2018-02-21T18:10:00.7551140Z NuGet Config files used:
+2018-02-21T18:10:00.7569080Z     /Users/vsts/.config/NuGet/NuGet.Config
+2018-02-21T18:10:00.7577780Z 
+2018-02-21T18:10:00.7595210Z Feeds used:
+2018-02-21T18:10:00.7613030Z     https://api.nuget.org/v3/index.json
+2018-02-21T18:10:00.7621810Z 
+2018-02-21T18:10:00.7639360Z Installed:
+2018-02-21T18:10:00.7657100Z     3 package(s) to /Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48.Android/First48.Android.csproj
+2018-02-21T18:10:00.7675740Z     3 package(s) to /Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48.iOS/First48.iOS.csproj
+2018-02-21T18:10:00.7694170Z     28 package(s) to /Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48/First48.csproj
+2018-02-21T18:10:01.2331080Z ##[section]Finishing: Restore Nuget

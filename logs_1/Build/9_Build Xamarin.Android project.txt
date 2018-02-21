@@ -1,0 +1,42 @@
+2018-02-21T18:10:03.0993530Z ##[section]Starting: Build Xamarin.Android project
+2018-02-21T18:10:03.1152030Z ==============================================================================
+2018-02-21T18:10:03.1169730Z Task         : Xamarin.Android
+2018-02-21T18:10:03.1187250Z Description  : Build an Android app with Xamarin
+2018-02-21T18:10:03.1204610Z Version      : 1.129.0
+2018-02-21T18:10:03.1221880Z Author       : Microsoft Corporation
+2018-02-21T18:10:03.1239560Z Help         : [More Information](https://go.microsoft.com/fwlink/?LinkID=613728)
+2018-02-21T18:10:03.1257470Z ==============================================================================
+2018-02-21T18:10:04.4993610Z [command]/Library/Frameworks/Mono.framework/Versions/Legacy_4_8_1/bin/msbuild /version /nologo
+2018-02-21T18:10:04.6316370Z [command]/Library/Frameworks/Mono.framework/Versions/Legacy_4_8_1/bin/msbuild /Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48.Android/First48.Android.csproj /t:PackageForAndroid /p:Configuration=Release
+2018-02-21T18:10:04.6336050Z Microsoft (R) Build Engine version 15.1.0.0
+2018-02-21T18:10:04.6354270Z Copyright (C) Microsoft Corporation. All rights reserved.
+2018-02-21T18:10:04.6366290Z 
+2018-02-21T18:10:05.0662650Z Build started 2/21/2018 6:10:05 PM.
+2018-02-21T18:10:06.1173940Z Project "/Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48.Android/First48.Android.csproj" on node 1 (PackageForAndroid target(s)).
+2018-02-21T18:10:06.1192420Z _CreatePropertiesCache:
+2018-02-21T18:10:06.1209890Z   Creating directory "obj/Release/".
+2018-02-21T18:10:06.3568840Z _BuildSdkCache:
+2018-02-21T18:10:06.3587600Z    Found Android SDK. API levels: 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25
+2018-02-21T18:10:06.5124030Z _SetLatestTargetFrameworkVersion:
+2018-02-21T18:10:06.5141920Z    Found Android SDK. API levels: 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25
+2018-02-21T18:10:06.5550550Z PrepareForBuild:
+2018-02-21T18:10:06.5568040Z   Creating directory "bin/Release/".
+2018-02-21T18:10:06.9414960Z Project "/Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48.Android/First48.Android.csproj" (1) is building "/Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48/First48.csproj" (2) on node 1 (GetTargetFrameworkProperties target(s)).
+2018-02-21T18:10:06.9467800Z /Library/Frameworks/Mono.framework/Versions/4.8.1/lib/mono/msbuild/15.0/bin/Sdks/Microsoft.NET.Sdk/build/Microsoft.NET.Sdk.Common.targets(73,5): error : Project '/Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48/First48.csproj' targets '.NETStandard,Version=v2.0'. It cannot be referenced by a project that targets 'MonoAndroid,Version=v7.1'. [/Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48/First48.csproj]
+2018-02-21T18:10:06.9550430Z Done Building Project "/Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48/First48.csproj" (GetTargetFrameworkProperties target(s)) -- FAILED.
+2018-02-21T18:10:06.9852030Z Done Building Project "/Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48.Android/First48.Android.csproj" (PackageForAndroid target(s)) -- FAILED.
+2018-02-21T18:10:06.9997560Z 
+2018-02-21T18:10:07.0016050Z Build FAILED.
+2018-02-21T18:10:07.0040450Z 
+2018-02-21T18:10:07.0091860Z "/Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48.Android/First48.Android.csproj" (PackageForAndroid target) (1) ->
+2018-02-21T18:10:07.0167840Z "/Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48/First48.csproj" (GetTargetFrameworkProperties target) (2) ->
+2018-02-21T18:10:07.0241480Z (GetTargetFrameworkProperties target) -> 
+2018-02-21T18:10:07.0322790Z   /Library/Frameworks/Mono.framework/Versions/4.8.1/lib/mono/msbuild/15.0/bin/Sdks/Microsoft.NET.Sdk/build/Microsoft.NET.Sdk.Common.targets(73,5): error : Project '/Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48/First48.csproj' targets '.NETStandard,Version=v2.0'. It cannot be referenced by a project that targets 'MonoAndroid,Version=v7.1'. [/Users/vsts/agent/2.127.0/work/1/s/First48/First48/First48/First48.csproj]
+2018-02-21T18:10:07.0377970Z 
+2018-02-21T18:10:07.0398510Z     0 Warning(s)
+2018-02-21T18:10:07.0417180Z     1 Error(s)
+2018-02-21T18:10:07.0426080Z 
+2018-02-21T18:10:07.0443590Z Time Elapsed 00:00:01.93
+2018-02-21T18:10:07.2088760Z ##[error]Error: /Library/Frameworks/Mono.framework/Versions/Legacy_4_8_1/bin/msbuild failed with return code: 1
+See https://go.microsoft.com/fwlink/?LinkId=760847.
+2018-02-21T18:10:07.2236950Z ##[section]Finishing: Build Xamarin.Android project

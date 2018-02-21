@@ -1,0 +1,10 @@
+2018-02-21T18:10:12.7238910Z ##[section]Starting: Analyze build log
+2018-02-21T18:10:12.7403410Z ==============================================================================
+2018-02-21T18:10:12.7421330Z Task         : Command Line
+2018-02-21T18:10:12.7439340Z Description  : Run a command line with arguments
+2018-02-21T18:10:12.7457320Z Version      : 1.1.3
+2018-02-21T18:10:12.7475100Z Author       : Microsoft Corporation
+2018-02-21T18:10:12.7493230Z Help         : [More Information](https://go.microsoft.com/fwlink/?LinkID=613735)
+2018-02-21T18:10:12.7511540Z ==============================================================================
+2018-02-21T18:10:13.6691870Z [command]/usr/local/bin/node /Users/vsts/agent/2.127.0/scripts/build-logs-analyzer/node_modules/@build/logs-analyzer-build-script/script/bin.js ******** 6f7cc310-8de7-4f76-bd09-52e8ca678db9 Android Xamarin
+2018-02-21T18:10:14.2972430Z ##[section]Finishing: Analyze build log

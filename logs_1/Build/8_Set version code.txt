@@ -1,0 +1,10 @@
+2018-02-21T18:10:01.6853580Z ##[section]Starting: Set version code
+2018-02-21T18:10:01.7005120Z ==============================================================================
+2018-02-21T18:10:01.7022770Z Task         : Command Line
+2018-02-21T18:10:01.7040210Z Description  : Run a command line with arguments
+2018-02-21T18:10:01.7057870Z Version      : 1.1.3
+2018-02-21T18:10:01.7075520Z Author       : Microsoft Corporation
+2018-02-21T18:10:01.7093750Z Help         : [More Information](https://go.microsoft.com/fwlink/?LinkID=613735)
+2018-02-21T18:10:01.7111940Z ==============================================================================
+2018-02-21T18:10:02.6235750Z [command]/usr/bin/find . -name AndroidManifest.xml -exec sed -i '' -e s/android:versionCode="[0-9]*"/android:versionCode="1"/g {} ;
+2018-02-21T18:10:02.6478560Z ##[section]Finishing: Set version code

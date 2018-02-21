@@ -1,0 +1,5 @@
+2018-02-21T18:10:14.7684950Z ##[section]Starting: Post Job Cleanup
+2018-02-21T18:10:14.7888470Z Cleaning any cached credential from repository: First48 (Git)
+2018-02-21T18:10:14.7985680Z ##[command]git remote set-url origin https://github.com/********/First48.git
+2018-02-21T18:10:14.8480020Z ##[command]git remote set-url --push origin https://github.com/********/First48.git
+2018-02-21T18:10:14.8956050Z ##[section]Finishing: Post Job Cleanup

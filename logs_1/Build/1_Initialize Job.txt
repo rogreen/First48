@@ -1,0 +1,14 @@
+2018-02-21T18:09:05.2594560Z ##[section]Starting: Initialize Job
+2018-02-21T18:09:05.3248860Z Prepare build directory.
+2018-02-21T18:09:05.4627020Z Set build variables.
+2018-02-21T18:09:05.5175310Z Download all required tasks.
+2018-02-21T18:09:05.5459540Z Downloading task: ShellScript
+2018-02-21T18:09:06.0048630Z Downloading task: CmdLine
+2018-02-21T18:09:06.3148070Z Downloading task: XamarinAndroid
+2018-02-21T18:09:06.8556900Z Downloading task: AndroidSigning
+2018-02-21T18:09:07.1092930Z Downloading task: PublishBuildArtifacts
+2018-02-21T18:09:07.3801910Z Downloading task: NuGetInstaller
+2018-02-21T18:09:08.4563350Z Downloading task: MSBuild
+2018-02-21T18:09:08.8483900Z Downloading task: AppCenterTest
+2018-02-21T18:09:13.6566020Z Downloading task: AppCenterDistribute
+2018-02-21T18:09:16.2619180Z ##[section]Finishing: Initialize Job

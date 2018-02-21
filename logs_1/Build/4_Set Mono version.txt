@@ -1,0 +1,9 @@
+2018-02-21T18:09:23.6352910Z ##[section]Starting: Set Mono version
+2018-02-21T18:09:23.6502780Z ==============================================================================
+2018-02-21T18:09:23.6520340Z Task         : Command Line
+2018-02-21T18:09:23.6538520Z Description  : Run a command line with arguments
+2018-02-21T18:09:23.6556960Z Version      : 1.1.3
+2018-02-21T18:09:23.6574220Z Author       : Microsoft Corporation
+2018-02-21T18:09:23.6591820Z Help         : [More Information](https://go.microsoft.com/fwlink/?LinkID=613735)
+2018-02-21T18:09:23.6609570Z ==============================================================================
+2018-02-21T18:09:24.6483650Z ##[section]Finishing: Set Mono version

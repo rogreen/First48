@@ -17,7 +17,7 @@ namespace First48.ViewModels
 
         public ItemsViewModel()
         {
-            Title = "Browse";
+            Title = "Lookeesee";
             Items = new ObservableCollection<Item>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 
