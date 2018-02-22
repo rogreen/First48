@@ -5,6 +5,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 using First48.Models;
+using Microsoft.AppCenter.Crashes;
 
 namespace First48.Views
 {
@@ -24,6 +25,10 @@ namespace First48.Views
             };
 
             BindingContext = this;
+
+            //Cause a crash
+            Crashes.GenerateTestCrash();
+
         }
 
         async void Save_Clicked(object sender, EventArgs e)

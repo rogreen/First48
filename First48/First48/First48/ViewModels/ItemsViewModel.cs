@@ -7,7 +7,6 @@ using Xamarin.Forms;
 
 using First48.Models;
 using First48.Views;
-using Microsoft.AppCenter.Crashes;
 
 namespace First48.ViewModels
 {
@@ -44,11 +43,6 @@ namespace First48.ViewModels
                 foreach (var item in items)
                 {
                     Items.Add(item);
-                }
-                // Cause a crash 
-                if (DateTime.Now.Second <= 30)
-                {
-                    Crashes.GenerateTestCrash();
                 }
             }
             catch (Exception ex)
