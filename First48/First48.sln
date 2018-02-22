@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2027
+VisualStudioVersion = 15.0.27130.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "First48.Android", "First48\First48.Android\First48.Android.csproj", "{621DF17C-CD6A-45A7-BBB3-8BA1FE372E62}"
 EndProject
@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "First48.iOS", "First48\Firs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "First48.UWP", "First48\First48.UWP\First48.UWP.csproj", "{4823457F-8AF8-4A7E-B59D-111FA2C60953}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "First48", "First48\First48\First48.csproj", "{E808C289-7F24-408E-AFDB-49FF4455BF2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "First48", "First48\First48\First48.csproj", "{E808C289-7F24-408E-AFDB-49FF4455BF2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
