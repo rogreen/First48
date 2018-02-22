@@ -10,6 +10,7 @@ using Xamarin.Forms.Xaml;
 using First48.Models;
 using First48.Views;
 using First48.ViewModels;
+using Microsoft.AppCenter.Crashes;
 
 namespace First48.Views
 {

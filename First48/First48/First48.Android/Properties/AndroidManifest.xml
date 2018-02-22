@@ -1,5 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.companyname.First48" android:installLocation="auto">
-	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="24" />
-	<application android:label="First48.Android" android:icon="@drawable/xamarin_logo"></application>
+	<uses-sdk android:minSdkVersion="21" android:targetSdkVersion="24" />
+	<uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="${applicationId}.permission.C2D_MESSAGE" />
+  <permission android:name="${applicationId}.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+  <application android:label="First48.Android" android:icon="@drawable/xamarin_logo"></application>
 </manifest>
